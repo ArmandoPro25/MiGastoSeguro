@@ -1,0 +1,138 @@
+/* Barra de navegación */
+
+.right {
+    margin-left: auto;
+}
+
+.right button {
+    margin-right: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.logo {
+    color: black;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.btn {
+    color: black;
+}
+
+.navbar-brand {
+    margin-left: 0;
+    width: 150px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(110, 112, 211);
+    height: 80px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left button {
+    margin-right: 5px;
+    color: black;
+  }
+  
+.container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+/* Contenido */
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.center {
+    width: 375px;
+    height: auto;
+    position: absolute;
+    right: 65px;
+    top: 165px;
+    animation: slideIn 2s ease-out;
+    z-index: 2;
+}
+
+.no-center {
+    width: 1155px;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 155px;
+    animation: slideIn 2s ease-out;
+    z-index: 1;
+}
+
+.col-md-4 {
+    color: white;
+    width: 375px;
+    height: auto;
+    position: absolute;
+    left: 295px;
+    top: 185px;
+    animation: slideIn 2s ease-out;
+    z-index: 2;
+}
+
+.col-md-3 {
+    color: white;
+    width: 375px;
+    height: auto;
+    position: absolute;
+    left: 295px;
+    top: 275px;
+    animation: slideIn 2s ease-out;
+    z-index: 2;
+}
+
+.link-opacity-50-hover {
+    margin-left: 170px;
+    height: auto;
+    position: absolute;
+    left: 345px;
+    top: 365px;
+    animation: slideIn 2s ease-out;
+    z-index: 2;
+}
+
+.form-check {
+    color: white;
+    width: 375px;
+    height: auto;
+    position: absolute;
+    left: 305px;
+    top: 351px;
+    animation: slideIn 2s ease-out;
+    z-index: 2;
+}
+
+.login {
+    height: auto;
+    position: absolute;
+    left: 310px;
+    top: 388px;
+    animation: slideIn 2s ease-out;
+    z-index: 2;
+}
+
+a {
+    margin-left: 15px;
+    margin-right: 15px;
+}

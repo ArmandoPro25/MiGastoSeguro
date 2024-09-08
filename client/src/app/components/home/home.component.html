@@ -1,14 +1,28 @@
-<nav class="navbar" style="background-color:rgb(136, 214, 136)">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="home">Mi Gasto Seguro</a>
+<nav class="navbar" style="background-color: #e7f5e6;">
+  <div class="container-fluid">
+    <img src="https://i.imgur.com/MhhJt15.png" [routerLink]="['/home']" class="navbar-brand">
     <div class="left">
-        <button type="button" class="btn" [routerLink]="['/home']">Inicio</button>
-      <button type="button" class="btn">Gastos</button>
+      <button type="button" class="btn" [routerLink]="['/home']"><h4>Inicio</h4></button>
+      <button type="button" class="btn"><h4>Gastos</h4></button>
     </div>
     <div class="right">
-      <button type="button" class="btn btn-outline-success">Registrarse</button>
+      <button type="button" class="btn btn-outline-success" [routerLink]="['/create-account']">Registrarse</button>
       <button type="button" class="btn btn-outline-success" [routerLink]="['/login']">Iniciar Sesión</button>
     </div>
-    </div>
+  </div>
 </nav>
-<img src="assets/home_1.jpeg" alt="Persona administrando sus datos">
+
+<img src="https://tse1.mm.bing.net/th?id=OIG4.4S7DlZNbuL1yZKsD_4Je&pid=ImgGn" class="center">
+  <h1>
+    Mi <span class="highlight">Gasto</span> Seguro
+  </h1>
+  <h5>
+    Organiza tus ingresos y controla tus gastos
+    para tener un orden.
+  </h5>
+  <h5 class="text2">¡Realiza un control más practico
+    de cada uno de tus movimientos financieros con
+    nuestra app web!
+    <p-button class="button2" label="Acceder" severity="success" [routerLink]="['/login']"/>
+  </h5>
+  
