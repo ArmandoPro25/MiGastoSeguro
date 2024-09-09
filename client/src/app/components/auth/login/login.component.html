@@ -27,7 +27,7 @@
     </h1>
     <h5>o</h5>
   <img src="https://i.imgur.com/BLmWqR1.png" class="flecha">
-  <img src="https://i.imgur.com/yYJWiAk.png" class="no-center">
+  <img src="https://i.imgur.com/yOlKMiJ.png" class="no-center">
   <img src="https://tse3.mm.bing.net/th?id=OIG2.4fZUMt.wtCIzu33_cmYC&pid=ImgGn" class="center">
 
   <form class="row g-3">
@@ -51,20 +51,24 @@
       </div>
     </div>
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
       <label class="form-check-label" for="flexCheckChecked">
         Recordar usuario
       </label>
-    </div>
+    </div>    
     <p><a class="link-opacity-50-hover" href="/change-pass">Olvide mi contraseña</a></p>
     <div class="login">
-      <button type="button" class="btn btn-primary btn-lg" [routerLink]="['/home-user']">Iniciar Sesión</button> <a>o</a>
+      <div class="buttonLogin">
+        <button type="button" class="btn btn-lg custom-green-button" [routerLink]="['/home-user']">Iniciar Sesión</button>
+      </div>
+        <a>o</a>
+      <div class="buttonRegistrarme">
       <button type="button" class="btn btn-secondary btn-lg" [routerLink]="['/create-account']">Registrarme</button>
+      </div>
       <div class="google-signin">
         <button type="button" class="btn btn-google">
           <i class="fab fa-google"></i> Continuar con Google
         </button>
       </div>
     </div>
-    <img src="https://i.imgur.com/Eq2zyzy.png" class="line">
   </form>
