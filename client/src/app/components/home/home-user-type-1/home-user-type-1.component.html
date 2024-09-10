@@ -1,0 +1,35 @@
+<nav class="navbar" style="background-color: #e7f5e6;">
+    <div class="container-fluid">
+      <img src="https://i.imgur.com/MhhJt15.png" [routerLink]="['/home']" class="navbar-brand">
+      <div class="left">
+        <button type="button" class="btn" [routerLink]="['/home']"><h4>Inicio</h4></button>
+        <button type="button" class="btn"><h4>Gastos</h4></button>
+      </div>
+      <div class="right">
+        <button type="button" class="btn btn-outline-success" [routerLink]="['/my-account']">Mi cuenta</button>
+      </div>
+    </div>
+</nav>
+
+
+<div class="FinanciebotAI">
+  <iframe
+    src="https://www.chatbase.co/chatbot-iframe/Cwk1qX0MPWZoZvmRSjMxu"
+    width="100%"
+    style="height: 400px; min-height: 400px;"
+    frameborder="0"
+  ></iframe>
+
+  <script>
+    window.embeddedChatbotConfig = {
+      chatbotId: "Cwk1qX0MPWZoZvmRSjMxu",
+      domain: "www.chatbase.co",
+    };
+  </script>
+  <script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="Cwk1qX0MPWZoZvmRSjMxu"
+    domain="www.chatbase.co"
+    defer
+  ></script>
+</div>
